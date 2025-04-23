@@ -1,11 +1,15 @@
-
-
 {
   "scripts": {
-  "dev": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --watch"
-},
+    "dev": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --watch"
+  },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.4",
     "tailwindcss": "^4.1.4"
-  }
+  },
+  "name": "rrftemplatechallenge-3to8-",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

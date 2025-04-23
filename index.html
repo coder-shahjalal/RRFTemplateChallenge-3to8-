@@ -1,34 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/output.css">
-    <link rel="icon" type="image/png" href="/assets/images/logo.svg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/output.css" />
+    <link rel="icon" type="image/png" href="/assets/images/logo.svg" />
     <title>Plumber Point</title>
-</head>
-<body class="flex items-center justify-center">
+  </head>
+  <body class="flex items-center justify-center font-roboto">
     <!-- Header start  -->
-  <header class="">
-    <nav class="flex w-[1170px] items-center justify-between font-roboto mb-[9px] mt-[9px]">
-       <div >
-        <img src="./assets/images/logo.svg" alt="logo">
-       </div>
-       <div class="flex justify-between items-center gap-[42px] ">
-          <ul class="flex gap-[35.7px] text-sm font-medium leading-0">
-            <li><a href="/home.html">Home</a></li>
-            <li><a href="/About_us.html">About us</a></li>
-            <li><a href="/home.html">Services</a></li>
-            <li><a href="/home.html">Project</a></li>
-            <li><a href="/home.html">Blogs</a></li>
-            <li><a href="/home.html">Contact</a></li>
-            
-          </ul>
-          <button class="font-bold text-[12px] uppercase w-[146px] h-[36px] bg-[#DD3142] text-white rounded-[5px]"><a href="">Request a call Back</a></button>
-       </div>
-    </nav>
-  </header>
-  <!-- Header end  -->
-</body>
+    <header>
+      <div class="w-full shadow-[0_4px_24px_0px_rgba(0,0,0,0.05)]">
+        <nav class="flex w-[1170px] items-center justify-between py-[8px]">
+          <div>
+            <img src="./assets/images/logo.svg" alt="logo" />
+          </div>
+          <div class="flex justify-between items-center gap-[42px]">
+            <ul class="flex gap-[35.7px] text-sm font-medium">
+              <li class="relative group cursor-pointer">
+                <a href="/home.html" class="inline-block relative font-bold">
+                  Home
+                  <!-- Active underline shown by default -->
+                  <span
+                    class="absolute left-0 -bottom-[3px] h-[2px] w-full bg-[#DD3142] transition-all duration-300"
+                  ></span>
+                </a>
+              </li>
+              <li class="relative group cursor-pointer">
+                <a href="/About_us.html" class="inline-block relative">
+                  About us
+                  <span
+                    class="absolute left-0 -bottom-0.5 h-0.5 w-0 bg-[#DD3142] transition-all duration-300 group-hover:w-full"
+                  ></span>
+                </a>
+              </li>
+              <li class="relative group cursor-pointer">
+                <a href="/home.html" class="inline-block relative">
+                  Services
+                  <span
+                    class="absolute left-0 -bottom-0.5 h-0.5 w-0 bg-[#DD3142] transition-all duration-300 group-hover:w-full"
+                  ></span>
+                </a>
+              </li>
+              <li class="relative group cursor-pointer">
+                <a href="/home.html" class="inline-block relative">
+                  Project
+                  <span
+                    class="absolute left-0 -bottom-0.5 h-0.5 w-0 bg-[#DD3142] transition-all duration-300 group-hover:w-full"
+                  ></span>
+                </a>
+              </li>
+              <li class="relative group cursor-pointer">
+                <a href="/home.html" class="inline-block relative">
+                  Blogs
+                  <span
+                    class="absolute left-0 -bottom-0.5 h-0.5 w-0 bg-[#DD3142] transition-all duration-300 group-hover:w-full"
+                  ></span>
+                </a>
+              </li>
+              <li class="relative group cursor-pointer">
+                <a href="/home.html" class="inline-block relative">
+                  Contact
+                  <span
+                    class="absolute left-0 -bottom-0.5 h-0.5 w-0 bg-[#DD3142] transition-all duration-300 group-hover:w-full"
+                  ></span>
+                </a>
+              </li>
+            </ul>
+
+            <button
+              class="font-bold text-[12px] text-center uppercase min-w-[146px] min-h-[36px] bg-[#DD3142] text-white rounded-[5px]"
+            >
+              <a href="">Request a call Back</a>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Header end  -->
+  </body>
 </html>
